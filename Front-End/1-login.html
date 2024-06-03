@@ -10,7 +10,7 @@
     <body>
         <div class="main">
             <h1 id="title">Página de Login</h1>
-            <form id="form-registro">
+            <form id="form-registro" method="post" >
                 <!-- Email/Senha -->
                 <fieldset class="container">
                     <label for="email" id="email-label" >
@@ -29,7 +29,12 @@
                                 type="password" 
                                 placeholder="Senha aqui.." required>
                     </label>
-                    <p><a>Esqueceu a senha?</a></p>
+
+                    <button type="submit">Login </button>
+                    <!-- Pasta Armazena mudar a senha-->
+                    <button type="submit" formaction="/Back-End/esqueceu-senha" >
+                        Esqueceu a senha?
+                    </button>
                 </fieldset>
             </form>
             <p> Não Registrado? <a href="2-registro.html">Criar uma conta</a></p>
