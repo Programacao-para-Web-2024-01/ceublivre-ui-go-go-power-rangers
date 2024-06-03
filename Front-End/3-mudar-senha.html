@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Senha</title>
+</head>
+<body>
+    <div>
+        <h2>Nova Senha</h2>
+        <form id = "resetPasswordForm" action="/Back-End/mudar_senha.go">
+            <div>
+                <label for="newPassword">Nova Senha:</label>
+                <input  type="password" 
+                        id="newPassword" 
+                        name="newPassword" 
+                        required>
+            </div>
+            <div>
+                <label for="confirmPassword">Confirme a Senha:</label>
+                <input  type="password" 
+                        id="confirmPassword" 
+                        name="confirmPassword" 
+                        required>
+            </div>
+            <div>
+                <input type="submit" value="Criar Senha">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -4,7 +4,7 @@
 
 - [X] Formulário de login: entrada para e-mail e senha
 - [ ] Botão de "Esqueci minha senha": para iniciar o processo de redefinição de senha
-- [ ] Link para página de registro: para usuários novos criarem uma conta
+- [X] Link para página de registro: para usuários novos criarem uma conta
 - [ ] Formulário de registro: entrada para nome, e-mail, senha e confirmação de senha
 - [ ] Botão de registro: para enviar o formulário de registro
 - [ ] Botões de login com provedores externos: para integrar com serviços como Google, Facebook, etc.

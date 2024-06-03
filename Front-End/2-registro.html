@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="1-login.css">
+        <title>Página de Registro</title>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1 id="title">Registro</h1>
+            <form id="form-registro" method="post" >
+                <!-- Nome/Email/Senha/Confirm Senha -->
+                <fieldset class="container">
+                    <label for="nome" id="nome-label" >
+                        Coloque seu nome:
+                        <input  class="nome-senha" 
+                                id="nome" 
+                                name="nome" 
+                                type="text" 
+                                placeholder="Nome aqui..." required>
+                    </label>
+                    <label for="email" id="email-label" >
+                        Coloque seu email:
+                        <input  class="email-senha" 
+                                id="email" 
+                                name="email" 
+                                type="text" 
+                                placeholder="Email aqui..." required>
+                    </label>
+                    <label for="senha" id="senha-label">
+                        Coloque sua senha: 
+                        <input  class="email-senha" 
+                                id="senha" 
+                                name="senha" 
+                                type="password" 
+                                placeholder="Senha aqui.." required>
+                    </label>
+
+                    <button type="submit">Registrar </button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
