@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="1-login.css">
+        <title>Página de Registro</title>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1 id="title">Página de Login</h1>
+            <form id="form-registro">
+                <!-- Email/Senha -->
+                <fieldset class="container">
+                    <label for="email" id="email-label" >
+                        Coloque seu email:
+                        <input  class="email-senha" 
+                                id="email" 
+                                name="email" 
+                                type="text" 
+                                placeholder="Email aqui..." required>
+                    </label>
+                    <label for="senha" id="senha-label">
+                        Coloque sua senha: 
+                        <input  class="email-senha" 
+                                id="senha" 
+                                name="senha" 
+                                type="password" 
+                                placeholder="Senha aqui.." required>
+                    </label>
+                    <p><a>Esqueceu a senha?</a></p>
+                </fieldset>
+            </form>
+            <p> Não Registrado? <a href="2-registro.html">Criar uma conta</a></p>
+        </div>
+    </body>
+</html>
