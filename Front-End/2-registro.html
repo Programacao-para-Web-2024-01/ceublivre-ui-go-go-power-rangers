@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="1-login.css">
+        <link rel="stylesheet" href=" ">
         <title>Página de Registro</title>
     </head>
 
@@ -15,7 +15,7 @@
                 <fieldset class="container">
                     <label for="nome" id="nome-label" >
                         Coloque seu nome:
-                        <input  class="nome-senha" 
+                        <input  class="registro" 
                                 id="nome" 
                                 name="nome" 
                                 type="text" 
@@ -23,19 +23,27 @@
                     </label>
                     <label for="email" id="email-label" >
                         Coloque seu email:
-                        <input  class="email-senha" 
+                        <input  class="registro" 
                                 id="email" 
                                 name="email" 
                                 type="text" 
                                 placeholder="Email aqui..." required>
                     </label>
-                    <label for="senha" id="senha-label">
+                    <label for="senha" id="confirmar_senha-label">
                         Coloque sua senha: 
-                        <input  class="email-senha" 
+                        <input  class="registro" 
                                 id="senha" 
                                 name="senha" 
                                 type="password" 
                                 placeholder="Senha aqui.." required>
+                    </label>
+                    <label for="confirmar_senha" id="confirmar_senha-label">
+                        Confirme a senha: 
+                        <input  class="registro" 
+                                id="confirmar_senha" 
+                                name="confirmar_senha" 
+                                type="password" 
+                                placeholder="Confirme aqui..." required>
                     </label>
 
                     <button type="submit">Registrar </button>
