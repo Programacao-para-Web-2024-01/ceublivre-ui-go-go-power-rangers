@@ -34,3 +34,21 @@ h1{
 .navbar a:hover{
     background-color: #0e0e29;
 }
+
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 25px;
+    float: right;
+}
+
+.search-input{
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.search-icon{
+    color: white;
+}

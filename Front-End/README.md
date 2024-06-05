@@ -12,7 +12,7 @@
 ### Página Principal:
 
 - [X] Barra de navegação: com links para as diferentes seções do marketplace (produtos, carrinho, perfil do usuário, etc.)
-- [ ] Caixa de pesquisa: para os usuários procurarem produtos por nome, categoria, etc.
+- [X] Caixa de pesquisa: para os usuários procurarem produtos por nome, categoria, etc.
 - [ ] Destaque dos produtos mais populares, mais vendidos ou em promoção
 - [ ] Lista de categorias de produtos
 - [ ] Lista de produtos mais recentes
