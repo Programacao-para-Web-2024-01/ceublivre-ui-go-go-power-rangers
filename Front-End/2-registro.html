@@ -8,45 +8,57 @@
     </head>
 
     <body>
+        <!-- Div principal que contém o conteúdo da página -->
         <div class="main">
+            <!-- Título principal da página -->
             <h1 id="title">Registro</h1>
-            <form id="form-registro" method="post" >
-                <!-- Nome/Email/Senha/Confirm Senha -->
+            
+            <!-- Formulário de registro -->
+            <form id="form-registro" method="post">
+                <!-- Conjunto de campos relacionados (nome, email, senha, confirmar senha) -->
                 <fieldset class="container">
-                    <label for="nome" id="nome-label" >
+                    <!-- Campo de entrada para o nome -->
+                    <label for="nome" id="nome-label">
                         Coloque seu nome:
-                        <input  class="registro" 
-                                id="nome" 
-                                name="nome" 
-                                type="text" 
+                        <input  class="registro"
+                                id="nome"
+                                name="nome"
+                                type="text"
                                 placeholder="Nome aqui..." required>
                     </label>
-                    <label for="email" id="email-label" >
+                    
+                    <!-- Campo de entrada para o email -->
+                    <label for="email" id="email-label">
                         Coloque seu email:
-                        <input  class="registro" 
-                                id="email" 
-                                name="email" 
-                                type="text" 
+                        <input  class="registro"
+                                id="email"
+                                name="email"
+                                type="text"
                                 placeholder="Email aqui..." required>
                     </label>
+                    
+                    <!-- Campo de entrada para a senha -->
                     <label for="senha" id="confirmar_senha-label">
-                        Coloque sua senha: 
-                        <input  class="registro" 
-                                id="senha" 
-                                name="senha" 
-                                type="password" 
+                        Coloque sua senha:
+                        <input  class="registro"
+                                id="senha"
+                                name="senha"
+                                type="password"
                                 placeholder="Senha aqui.." required>
                     </label>
+                    
+                    <!-- Campo de entrada para confirmar a senha -->
                     <label for="confirmar_senha" id="confirmar_senha-label">
-                        Confirme a senha: 
-                        <input  class="registro" 
-                                id="confirmar_senha" 
-                                name="confirmar_senha" 
-                                type="password" 
+                        Confirme a senha:
+                        <input  class="registro"
+                                id="confirmar_senha"
+                                name="confirmar_senha"
+                                type="password"
                                 placeholder="Confirme aqui..." required>
                     </label>
 
-                    <button type="submit">Registrar </button>
+                    <!-- Botão de submissão do formulário de registro -->
+                    <button type="submit">Registrar</button>
                 </fieldset>
             </form>
         </div>
