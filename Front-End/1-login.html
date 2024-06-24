@@ -8,12 +8,17 @@
     </head>
 
     <body>
+        <!-- Div principal que contém o conteúdo da página -->
         <div class="main">
+            <!-- Título principal da página -->
             <h1 id="title">Log-in</h1>
-            <form id="form-registro" method="post" >
-                <!-- Email/Senha -->
+            
+            <!-- Formulário de login -->
+            <form id="form-registro" method="post">
+                <!-- Conjunto de campos relacionados (email e senha) -->
                 <fieldset class="container">
-                    <label for="email" id="email-label" >
+                    <!-- Campo de entrada para o email -->
+                    <label for="email" id="email-label">
                         Coloque seu email:
                         <input  class="email-senha" 
                                 id="email" 
@@ -21,8 +26,9 @@
                                 type="text" 
                                 placeholder="Email aqui..." required>
                     </label>
+                    <!-- Campo de entrada para a senha -->
                     <label for="senha" id="senha-label">
-                        Coloque sua senha: 
+                        Coloque sua senha:
                         <input  class="email-senha" 
                                 id="senha" 
                                 name="senha" 
@@ -30,14 +36,16 @@
                                 placeholder="Senha aqui.." required>
                     </label>
 
-                    <button type="submit">Login </button>
-                    <!-- Pasta Armazena mudar a senha-->
-                    <button type="submit" formaction="/esqueceu-senha" >
+                    <!-- Botão de submissão do formulário de login -->
+                    <button type="submit">Login</button>
+                    <!-- Botão para redirecionar para a página de recuperação de senha -->
+                    <button type="submit" formaction="/esqueceu-senha">
                         Esqueceu a senha?
                     </button>
                 </fieldset>
             </form>
-            <p> Não Registrado? <a href="2-registro.html" target="_blank">Criar uma conta</a></p>
+            <!-- Link para a página de registro, caso o usuário não esteja registrado -->
+            <p>Não Registrado? <a href="2-registro.html" target="_blank">Criar uma conta</a></p>
         </div>
     </body>
 </html>
