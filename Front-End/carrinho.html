@@ -8,15 +8,20 @@
     <title>Página Principal</title>
 </head>
 <body>
+    <!-- Título principal da página -->
     <h1>CEUB LIVRE UI</h1>
 
+    <!-- Barra de navegação -->
     <nav class="navbar">
         <ul>
+            <!-- Links para seções principais -->
             <li><a href="">Produtos</a></li>
             <li><a href="">Carrinho</a></li>
             <li><a href="">Perfil</a></li>
+            <!-- Links de perfil (login e registro) -->
             <li class="profile"><a href="login.html">Login</a></li>
             <li class="profile"><a href="registro.html">Registrar</a></li>
+            <!-- Formulário de busca -->
             <form>
                 <div class="search">
                     <span class="search-icon material-symbols-outlined">search</span>
@@ -26,19 +31,27 @@
         </ul>
     </nav>
 
+    <!-- Conteúdo principal da página -->
     <main>
+        <!-- Títulos e textos informativos -->
         <h3>TEXTO</h3>
         <p>TEXTO</p>
+        
+        <!-- Título e container para produtos -->
         <h3>Produtos</h3>
         <div id="produtos-container"></div>
     </main>
 
+    <!-- Script JavaScript para buscar e exibir produtos -->
     <script>
         async function fetchProdutos() {
             try {
+                // Busca os produtos da API local
                 const response = await fetch('http://localhost:8080/api/produtos');
                 const produtos = await response.json();
                 const produtosContainer = document.getElementById('produtos-container');
+                
+                // Para cada produto, cria um elemento div e adiciona ao container de produtos
                 produtos.forEach(produto => {
                     const produtoDiv = document.createElement('div');
                     produtoDiv.innerHTML = `<h4>${produto.nome}</h4><p>Preço: ${produto.preco}</p>`;
@@ -49,6 +62,7 @@
             }
         }
 
+        // Ao carregar o conteúdo da página, chama a função fetchProdutos para buscar e exibir os produtos
         document.addEventListener('DOMContentLoaded', fetchProdutos);
     </script>
 </body>
