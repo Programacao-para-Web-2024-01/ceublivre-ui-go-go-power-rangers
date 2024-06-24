@@ -1,72 +1,68 @@
-/* Remove a margem padrão de todo o corpo da página */
+
 body{
     margin: 0;
 }
 
-/* Define margens laterais para o elemento <main> */
 main{
     margin-left: 20px;
     margin-right: 20px;
 }
 
-/* Centraliza o texto dos elementos <h1> */
 h1{
     text-align: center;
 }
 
-/* Estiliza a lista de navegação dentro de um elemento com a classe .navbar */
 .navbar ul{
-    list-style-type: none; /* Remove os marcadores padrão da lista */
-    font-family: 'Lexend', sans-serif; /* Define a fonte da lista */
-    background-color: #121232; /* Define a cor de fundo */
-    padding: 0px; /* Remove o padding padrão */
-    margin: 0px; /* Remove a margem padrão */
-    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do contêiner */
+    list-style-type: none; 
+    font-family: 'Lexend', sans-serif;
+    background-color: #121232; 
+    padding: 0px; 
+    margin: 0px; 
+    overflow: hidden;
 }
 
-/* Estiliza os links dentro do elemento .navbar */
+
 .navbar a{
-    color: white; /* Define a cor do texto como branco */
-    text-decoration: none; /* Remove a decoração padrão do texto (sublinhado) */
-    padding: 15px; /* Adiciona padding ao redor dos links */
-    display: block; /* Define o display como block para ocupar toda a área do item */
-    text-align: center; /* Centraliza o texto dentro do link */
+    color: white; 
+    text-decoration: none;
+    padding: 15px; 
+    display: block; 
+    text-align: center; 
 }
 
-/* Estiliza os itens da lista dentro do elemento .navbar */
 .navbar li{
-    float: left; /* Alinha os itens da lista à esquerda em linha */
+    float: left; 
 }
 
-/* Estiliza o elemento com a classe .profile */
+
 .profile{
-    display: flex; /* Define o layout flexível para os itens dentro do contêiner */
-    float: right !important; /* Alinha o contêiner à direita, sobrescrevendo outros floats */
-    align-items: center; /* Alinha os itens no centro verticalmente */
+    display: flex; 
+    float: right !important;
+    align-items: center; 
 }
 
-/* Altera o fundo dos links ao passar o mouse por cima */
+
 .navbar a:hover{
-    background-color: #0e0e29; /* Define uma nova cor de fundo ao passar o mouse */
+    background-color: #0e0e29; 
 }
 
-/* Estiliza o contêiner de busca */
+
 .search {
-    width: max-content; /* Define a largura como o conteúdo máximo */
-    display: flex; /* Define o layout flexível */
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    padding: 14px; /* Adiciona padding ao contêiner */
-    border-radius: 25px; /* Define bordas arredondadas */
-    float: right; /* Alinha o contêiner à direita */
+    width: max-content; 
+    display: flex; 
+    align-items: center; 
+    padding: 14px; 
+    border-radius: 25px; 
+    float: right; 
 }
 
-/* Estiliza o campo de entrada de busca */
+
 .search-input{
-    font-size: 16px; /* Define o tamanho da fonte */
-    margin-left: 14px; /* Adiciona margem à esquerda */
+    font-size: 16px; 
+    margin-left: 14px; 
 }
 
-/* Estiliza o ícone de busca */
+
 .search-icon{
-    color: white; /* Define a cor do ícone como branco */
+    color: white; 
 }
